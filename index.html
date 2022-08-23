@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <title>pro decryptor</title>
+</head>
+<html>
+    <body>
+        <center>
+        <div class="decryptor">
+        <h1>decryptor:</h1>
+        <input placeholder="enter encrypted text" id="input" type="text">
+         <p style="font-size: 8px;"></p>
+        <button title="decrypts text" onclick="decrypt()">decrypt</button>
+        <br>
+        <p id="output">output : none</p>
+        </div>
+        <div class="encryptor">
+        <h1>encryptor :</h1>
+        <input placeholder="enter text" id="input1" type="text">
+        <p style="font-size: 8px;"></p>
+        <button title="encrypts text" onclick="encrypt()">encrypt</button>
+        <br>
+        <p id="output1">output : none</p><input title="automaticaly fill the textbox" onchange="changed()" type="checkbox">
+        </div>
+        <p style="font-size: 8px;"></p>
+        <button title="reset text" onclick="reset()">reset</button>
+        </center>
+    </body>
+</html>
+<script src="decryptor.js"></script>
